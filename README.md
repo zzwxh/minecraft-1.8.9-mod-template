@@ -2,12 +2,12 @@
 ```
 Jetbrains IDEA:
 new project
- Java
-+ Gradle
-+ JDK1.8
-+ GradleDSL=Groovy
-+ GradleWrapper
-+ GradleVersion=4.10.3
+Lang=Java
+BuildSystem=Gradle
+JDK=1.8
+GradleDSL=Groovy
+Gradle=Wrapper
+GradleVersion=4.10.3
 
 replace build.gradle
 ./gradlew setupDecompWorkspace
